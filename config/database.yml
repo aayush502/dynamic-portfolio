@@ -1,0 +1,17 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: portfolio  
+  pool: 5
+  username: postgres
+  password: postgres
+
+  production:
+  database: portfolio
+  adapter: postgresql
+  # host: localhost
+  # password: postgres
+  pool: 5
+  username: postgres
+  password: postgres
